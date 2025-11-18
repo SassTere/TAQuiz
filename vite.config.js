@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/TAQuiz",
+  base: "/",
   css: {
     postcss: {
       plugins: [tailwindcss()],
